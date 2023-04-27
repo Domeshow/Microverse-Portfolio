@@ -1,0 +1,48 @@
+* {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    background: #F7F7F9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px;
+}
+
+/* Header */
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+
+#time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color: #6070FF;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 0px;
+}
+
+
